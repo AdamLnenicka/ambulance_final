@@ -2,30 +2,33 @@
 
 Tato aplikace umožňuje spravovat rozpis doktorů v ambulanci.
 
-# Obsah
+## Obsah
 
-Soubor doktoři.txt obsahuje seznam doktorů
-    pro přidání edituj soubor přídáním nového doktora na nový řádek
-    pro odstranění doktora smaž odpovídající řádek
+### Soubor `doktoři.txt`
+- Obsahuje seznam doktorů.
+- **Pro přidání:** Edituj soubor přidáním nového doktora na nový řádek.
+- **Pro odstranění:** Smaž odpovídající řádek.
 
-Při zadání jednodenní nepřítomnost je nutné zadat datum od a datum do stejný den.
+### Nepřítomnosti
+- Při zadání jednodenní nepřítomnosti je nutné zadat stejné datum do polí `Datum od` i `Datum do`.
+- Nepřítomnosti se spolu s celým rozpisem uloží do souboru `rozpis.txt` pouze v okamžiku generování PDF, ne při každé změně.
+  - **Poznámka:** V případě, že je aplikace ukončena bez vygenerování PDF, zadané nepřítomnosti se neuloží.
 
-Nepřítomnosti se spolu s celým rozpisem uloží do souboru rozpis.txt pouze v okamžiku generování pdf, ne při každé změně.
-    V případě, že je aplikace ukončena bez vygenerování pdf, zadané nepřítomnosti se neuloží.
+### Zobrazení posledního rozpisu
+- Pomocí tlačítka `Zobrazit poslední rozpis` se do programu nahraje obsah rozpisu (ze souboru `rozpis.txt`) z okamžiku posledního generování PDF.
 
-Pomocí tlačítka zobrazit poslední rozpis se do programu nahraje obsah rozpisu (ze souboru rozpis.txt) z okamžiku posledního generování pdf.
-
-Tlačítko Generovat rozpis vygeneruje soubor rozpis.pdf se zadanými nepřítomnostmi.
-    název .pdf souboru obsahuje datum a čas vygenerování ve formátu den.mesic.rok_hodina-minuta-vterina
-
+### Generování rozpisu
+- Tlačítko `Generovat rozpis` vygeneruje soubor `rozpis.pdf` se zadanými nepřítomnostmi.
+  - **Poznámka:** Název PDF souboru obsahuje datum a čas vygenerování ve formátu `den.mesic.rok_hodina-minuta-vterina`.
 
 ## Instalace
 
-1. Stáhni si repozitář:
-    Zelená ikonka code -> download zip
+1. **Stáhni si repozitář:**
+    - Klikni na zelenou ikonku `Code` -> `Download ZIP`.
 
-2. Extrahuj zip:
-    Extrahuj tam, kde chceš program mít, třeba na plochu.
-    ve složce dist je spustitelný soubor ambulance.
+2. **Extrahuj ZIP:**
+    - Extrahuj tam, kde chceš program mít, třeba na plochu.
+    - Ve složce `dist` je spustitelný soubor `ambulance.exe`.
 
-4. Spusť aplikaci přes ambulance.exe soubor.
+3. **Spusť aplikaci:**
+    - Otevři složku `dist` a spusť aplikaci přes soubor `ambulance.exe`.
