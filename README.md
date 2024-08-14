@@ -21,19 +21,10 @@ Tlačítko Generovat rozpis vygeneruje soubor rozpis.pdf se zadanými nepřítom
 
 ## Instalace
 
-1. Stáhněte si repozitář:
-    ```bash
-    git clone https://github.com/adamlnenicka/ambulance.git
-    cd ambulance
-    ```
+1. Stáhni si repozitář:
+    Zelená ikonka code -> download zip
 
 2. Spusťte instalační skript:
-    ```bash
-    install.bat
-    ```
+    Extrahuj tam, kde chceš program mít, třeba na plochu.
 
-3. Po dokončení instalace najdete zástupce na ploše.
-
-## Použití
-
-Spusťte aplikaci kliknutím na zástupce na ploše.
+3. Spusť aplikaci přes .exe soubor.
