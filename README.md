@@ -24,7 +24,8 @@ Tlačítko Generovat rozpis vygeneruje soubor rozpis.pdf se zadanými nepřítom
 1. Stáhni si repozitář:
     Zelená ikonka code -> download zip
 
-2. Spusťte instalační skript:
+2. Extrahuj zip:
     Extrahuj tam, kde chceš program mít, třeba na plochu.
+    ve složce dist je spustitelný soubor ambulance.
 
-3. Spusť aplikaci přes .exe soubor.
+4. Spusť aplikaci přes ambulance.exe soubor.
