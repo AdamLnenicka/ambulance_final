@@ -53,8 +53,4 @@ Např. řádek `Jára 345` znamená, že Jára bude chybět každou středu, čt
 4) Přidána funkcionalita pro výběr uloženého rozpisu. Rozpisy se nyní při vygenerování ukládají se svým datem i časem a nepřepisují se.
 5) Přidáno tlačítko `Uložit rozpis` pro uložení rozpracovaného rozpisu bez nutnosti generování pdf.
 6) Přidáno tlačítko `Vyčistit rozpis`, které smaže všechny absence v rozpise.
-<<<<<<< HEAD
 7) Přidáno tlačítko `Zpět`, vrátí poslední změnu učiněnou v rozpise.
-=======
-7) Přidáno tlačítko `Zpět`, vrátí poslední změnu učiněnou v rozpise.
->>>>>>> f844aee57d50d2863ae95476a7b0d6aa2294c66d
